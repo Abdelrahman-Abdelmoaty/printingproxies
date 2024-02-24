@@ -311,7 +311,7 @@ body {
     font-size: 16px;
   }
   .page-content-card {
-    padding-block: 40px;
+    padding-block: 20px;
     padding-inline: 10px;
     row-gap: 40px;
     justify-content: center;
