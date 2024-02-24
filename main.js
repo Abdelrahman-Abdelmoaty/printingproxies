@@ -38,3 +38,27 @@ message_font_position_slider.addEventListener("input", (event) => {
     `background: linear-gradient(to right, #af192d ${progress}%, #d9d9d9 ${progress}%) !important`
   );
 });
+
+const textColorPicker = document.querySelector("#text-color-picker");
+const textColorPickerButton = document.querySelector("#text-color-picker-button");
+
+textColorPicker.addEventListener("input", (event) => {
+  const color = event.target.value;
+  // Handle logic for the color change
+});
+
+textColorPickerButton.addEventListener("click", () => {
+  textColorPicker.click();
+});
+
+const messagecolorPicker = document.querySelector("#message-color-picker");
+const messagecolorPickerButton = document.querySelector("#message-color-picker-button");
+
+messagecolorPicker.addEventListener("input", (event) => {
+  const color = event.target.value;
+  // Handle logic for the color change
+});
+
+messagecolorPickerButton.addEventListener("click", () => {
+  messagecolorPicker.click();
+});
